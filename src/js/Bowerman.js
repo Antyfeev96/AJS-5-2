@@ -12,4 +12,8 @@ export default class Bowerman extends Character {
 
 const bowman = new Bowerman('Dmitri', 'Bowerman');
 
+bowman.levelUp();
+
+bowman.damage(15);
+
 console.log(bowman);
